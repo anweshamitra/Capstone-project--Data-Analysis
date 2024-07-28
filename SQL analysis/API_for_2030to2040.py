@@ -1,5 +1,5 @@
-from flask import Flask, jsonify
-import pyodbc
+from flask import Flask, jsonify # type: ignore
+import pyodbc # type: ignore
 import pandas as pd
 
 app_2030_2040 = Flask(__name__)
@@ -17,7 +17,7 @@ def get_db_connection_2030_2040():
 # Load queries from file for 2030-2040
 def load_queries_2030_2040():
     queries = {}
-    with open(r'C:\Users\anwes\OneDrive\Desktop\PROJECT\Capstone Project\SQL analysis\population-2030-2040.sql', 'r') as file:
+    with open(r'population-2030-2040.sql', 'r') as file:
         query_name = None
         query = ""
         for line in file:
