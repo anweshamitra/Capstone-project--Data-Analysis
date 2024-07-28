@@ -17,7 +17,7 @@ def get_db_connection_2030_2040():
 # Load queries from file for 2030-2040
 def load_queries_2030_2040():
     queries = {}
-    with open(r'C:\Users\anwes\OneDrive\Desktop\PROJECT\Capestone project\SQL analysis\population-2030-2040.sql', 'r') as file:
+    with open(r'C:\Users\anwes\OneDrive\Desktop\PROJECT\Capstone Project\SQL analysis\population-2030-2040.sql', 'r') as file:
         query_name = None
         query = ""
         for line in file:

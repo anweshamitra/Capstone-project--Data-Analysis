@@ -17,7 +17,7 @@ def get_db_connection():
 # Load queries from file
 def load_queries():
     queries = {}
-    with open(r'C:\Users\anwes\OneDrive\Desktop\PROJECT\Capestone project\SQL analysis\Population2020-2029.sql', 'r') as file:
+    with open(r'C:\Users\anwes\OneDrive\Desktop\PROJECT\Capstone Project\SQL analysis\Population2020-2029.sql', 'r') as file:
         query_name = None
         query = ""
         for line in file:
